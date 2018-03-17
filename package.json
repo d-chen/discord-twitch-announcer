@@ -2,23 +2,24 @@
   "name": "discord-twitch-announcer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
-    "discord-graf": "^0.15.4",
-    "dotenv": "^4.0.0"
+    "bufferutil": "^3.0.2",
+    "discord.js": "git+https://github.com/hydrabolt/discord.js.git",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.5.0",
+    "node-opus": "^0.2.6",
+    "twitch-api-v5": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/bot.js",
+    "forever": "forever start src/bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d-chen/discord-twitch-announcer.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/d-chen/discord-twitch-announcer/issues"
-  },
-  "homepage": "https://github.com/d-chen/discord-twitch-announcer#readme"
+  }
 }
