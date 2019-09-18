@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "bufferutil": "^3.0.2",
-    "discord.js": "git+https://github.com/hydrabolt/discord.js.git",
+    "bufferutil": "^3.0.5",
+    "discord.js": "^11.5.1",
     "dotenv": "^4.0.0",
-    "eslint": "^4.5.0",
-    "node-opus": "^0.2.6",
-    "twitch-api-v5": "^2.0.2"
+    "eslint": "^4.19.1",
+    "node-opus": "^0.2.9",
+    "twitch-api-v5": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
